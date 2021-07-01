@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9094397d-fe11-4bf2-8138-131a03be66f2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\software\IntelliJ IDEA 2019.3.3\tools\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uQ4cD1dXfPVd2UDiqhG0qMO7vM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/eureka-client/src/main/java/com/baohj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-turbine/src/main/java/com/baohj/serviceturbine" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.52348995" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work-2021\Workspace-SpingCloud\SpringCloud-Finchley\service-turbine\src\main\java\com\baohj\serviceturbine" />
+      <recent name="D:\Work-2021\Workspace-SpingCloud\SpringCloud-Finchley\service-turbine\src\main\resources" />
+      <recent name="D:\Work-2021\Workspace-SpingCloud\SpringCloud-Finchley\service-miya\src\main\resources" />
+      <recent name="D:\Work-2021\Workspace-SpingCloud\SpringCloud-Finchley" />
+      <recent name="D:\Work-2021\Workspace-SpingCloud\SpringCloud-Finchley\eureka-server\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
+    <configuration name="eureka-client [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/eureka-client" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="eureka-client [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/eureka-client" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="eureka-server [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/eureka-server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="eureka-server [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/eureka-server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baohj.configclient.ConfigClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baohj.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baohj.eurekaclient.EurekaClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bhj.eurekaserver.EurekaServerApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/eureka-server" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baohj.servicefeign.ServiceFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceMiyaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-miya" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baohj.servicemiya.ServiceMiyaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baohj.serviceribbon.ServiceRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-turbine" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baohj.serviceturbine.ServiceTurbineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baohj.servicezuul.ServiceZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.eureka-client [clean]" />
+      <item itemvalue="Maven.eureka-client [install]" />
+      <item itemvalue="Maven.eureka-server [clean]" />
+      <item itemvalue="Maven.eureka-server [install]" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.EurekaClientApplication" />
+      <item itemvalue="Spring Boot.ServiceRibbonApplication" />
+      <item itemvalue="Spring Boot.ServiceFeignApplication" />
+      <item itemvalue="Spring Boot.ServiceZuulApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
+      <item itemvalue="Spring Boot.ServiceMiyaApplication" />
+      <item itemvalue="Spring Boot.ServiceTurbineApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.eureka-server [install]" />
+        <item itemvalue="Maven.eureka-server [clean]" />
+        <item itemvalue="Maven.eureka-client [install]" />
+        <item itemvalue="Maven.eureka-client [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9094397d-fe11-4bf2-8138-131a03be66f2" name="Default Changelist" comment="" />
+      <created>1624584556168</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624584556168</updated>
+      <workItem from="1624584560407" duration="20834000" />
+      <workItem from="1624695945591" duration="5071000" />
+      <workItem from="1624849720840" duration="41912000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1624605389434">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1624605389434" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624935875200">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1624935875200" />
+    <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625040000625">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1625040000625" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1624604352901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1624604352901" />
+    <state x="498" y="195" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1624590482077">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="195" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1624590482077" />
+    <state x="478" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1624870015829">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1624870015829" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1625041435310">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1625041435310" />
+    <state width="1493" height="381" key="GridCell.Tab.0.bottom" timestamp="1625040028228">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="381" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625040028228" />
+    <state width="1493" height="381" key="GridCell.Tab.0.center" timestamp="1625040028228">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="381" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625040028228" />
+    <state width="1493" height="381" key="GridCell.Tab.0.left" timestamp="1625040028228">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="381" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625040028228" />
+    <state width="1493" height="381" key="GridCell.Tab.0.right" timestamp="1625040028228">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="381" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625040028228" />
+    <state width="1493" height="381" key="GridCell.Tab.1.bottom" timestamp="1625040028228">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="381" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625040028228" />
+    <state width="1493" height="381" key="GridCell.Tab.1.center" timestamp="1625040028228">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="381" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1625040028228" />
+    <state width="1493" height="381" key="GridCell.Tab.1.left" timestamp="1625040028228">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="381" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1625040028228" />
+    <state width="1493" height="381" key="GridCell.Tab.1.right" timestamp="1625040028228">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="381" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1625040028228" />
+    <state width="1493" height="135" key="GridCell.Tab.2.bottom" timestamp="1624861927665">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="135" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624861927665" />
+    <state width="1493" height="135" key="GridCell.Tab.2.center" timestamp="1624861927665">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="135" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1624861927665" />
+    <state width="1493" height="135" key="GridCell.Tab.2.left" timestamp="1624861927664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="135" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1624861927664" />
+    <state width="1493" height="135" key="GridCell.Tab.2.right" timestamp="1624861927665">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="135" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1624861927665" />
+    <state width="1493" height="135" key="GridCell.Tab.3.bottom" timestamp="1624861927666">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="135" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624861927666" />
+    <state width="1493" height="135" key="GridCell.Tab.3.center" timestamp="1624861927665">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="135" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1624861927665" />
+    <state width="1493" height="135" key="GridCell.Tab.3.left" timestamp="1624861927665">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="135" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1624861927665" />
+    <state width="1493" height="135" key="GridCell.Tab.3.right" timestamp="1624861927666">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="135" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1624861927666" />
+    <state x="203" y="26" key="SettingsEditor" timestamp="1625045868702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="203" y="26" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1625045868702" />
+    <state x="565" y="190" key="chooseDestDirectoryDialog" timestamp="1624590371257">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="565" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1624590371257" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1624849721965">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1624849721965" />
+    <state x="229" y="130" key="new project wizard" timestamp="1624867118264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="229" y="130" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1624867118264" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1625031247106">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1625031247106" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-ribbon/src/main/java/com/baohj/serviceribbon/ServiceRibbonApplication.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

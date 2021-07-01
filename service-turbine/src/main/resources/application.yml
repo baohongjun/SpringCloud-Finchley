@@ -1,0 +1,32 @@
+server:
+  port: 8990
+
+spring:
+  application:
+    name: service-turbine
+  #指定zipkin server的地址
+  zipkin:
+    base-url: http://localhost:9411
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
+
+turbine:
+  app-config: eureka-client,service-miya
+  aggregator:
+    clusterConfig: default
+  clusterNameExpression: new String("default")
+  combine-host: true
+  #springboot2.x版本默认路径是actuator/hystrix.stream,而turbine默认路径/hystrix.stream
+  instanceUrlSuffix: actuator/hystrix.stream

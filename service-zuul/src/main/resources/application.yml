@@ -1,0 +1,35 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8769
+spring:
+  application:
+    name: service-zuul
+zuul:
+  routes:
+    service-ribbon:
+      path: /ribbon/**
+      serviceId: service-ribbon
+    service-feign:
+      path: /feign/**
+      serviceId: service-feign
+  #设置超时时间
+  host:
+    socket-timeout-millis: 12000
+    connect-timeout-millis: 12000
+#设置超时时间
+ribbon:
+  ReadTimeout: 12000
+  ConnectTimeout: 12000
+  eureka:
+    enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 12000
+

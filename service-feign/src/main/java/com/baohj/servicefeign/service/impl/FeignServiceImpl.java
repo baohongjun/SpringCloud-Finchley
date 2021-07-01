@@ -1,5 +1,6 @@
-package com.baohj.servicefeign.service;
+package com.baohj.servicefeign.service.impl;
 
+import com.baohj.servicefeign.service.FeignService;
 import org.springframework.stereotype.Component;
 
 /**
@@ -8,7 +9,7 @@ import org.springframework.stereotype.Component;
  * description
  */
 @Component
-public class FeignServiceHandle implements  FeignService{
+public class FeignServiceImpl implements FeignService {
     @Override
     public String sayHiFromClientOne(String name) {
 

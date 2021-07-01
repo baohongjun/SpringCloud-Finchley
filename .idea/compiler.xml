@@ -10,12 +10,12 @@
         <module name="eureka-server" />
         <module name="service-miya" />
         <module name="eureka-client" />
-        <module name="config-client" />
         <module name="service-feign" />
+        <module name="service-zuul" />
         <module name="service-turbine" />
         <module name="service-ribbon" />
         <module name="config-server" />
-        <module name="service-zuul" />
+        <module name="config-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

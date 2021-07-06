@@ -1,0 +1,28 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: service-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: false                   #true表明gateway开启服务注册和发现的功能
+          lowerCaseServiceId: true        #将请求路径上的服务名配置为小写
+      routes:
+      - id: eureka-client
+        #即service-client服务的负载均衡地址
+        uri: lb://EUREKA-CLIENT
+        #以/eureka/**开头的请求都会转发到uri为lb://EUREKA-CLIENT的地址上
+        predicates:
+          - Path=/eureka/**
+        filters:
+          - StripPrefix=1
+          #- RequestTime=true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+logging:
+  level:
+    org.springframework.cloud.gateway: debug

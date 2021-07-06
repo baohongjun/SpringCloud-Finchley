@@ -14,6 +14,7 @@ import org.springframework.context.annotation.Bean;
  * 它具有可插拔的注解特性，可使用Feign 注解和JAX-RS注解。Feign支持可插拔的编码器和解码器。
  * Feign默认集成了Ribbon，并和Eureka结合，默认实现了负载均衡的效果。
  * 自带断路器
+ * @author DELL
  */
 @EnableDiscoveryClient  //注册
 @EnableFeignClients     //开启Feign的功能

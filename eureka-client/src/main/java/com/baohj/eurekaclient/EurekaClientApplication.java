@@ -39,7 +39,7 @@ public class EurekaClientApplication {
     @HystrixCommand(fallbackMethod = "hiError")
     public String home(@RequestParam String name){
 
-        return "hi "+name+",i am from port:" +port;
+        return "hi 2021 "+name+",i am from port:" +port;
     }
     public String hiError(String name) {
         return "hi,"+name+",sorry,error!";
@@ -80,6 +80,5 @@ public class EurekaClientApplication {
     public Sampler defaultSampler() {
         return Sampler.ALWAYS_SAMPLE;
     }
-
 
 }

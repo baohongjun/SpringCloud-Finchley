@@ -10,14 +10,15 @@
         <module name="eureka-server" />
         <module name="service-miya" />
         <module name="eureka-client" />
+        <module name="config-client" />
         <module name="gateway-limiter" />
         <module name="service-feign" />
-        <module name="service-zuul" />
+        <module name="service-feign-client" />
         <module name="service-gateway" />
         <module name="service-turbine" />
         <module name="service-ribbon" />
         <module name="config-server" />
-        <module name="config-client" />
+        <module name="service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +35,7 @@
       <module name="gateway-limiter" options="-parameters" />
       <module name="serice-feign" options="-parameters" />
       <module name="service-feign" options="-parameters" />
+      <module name="service-feign-client" options="-parameters" />
       <module name="service-gateway" options="-parameters" />
       <module name="service-miya" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />

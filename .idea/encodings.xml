@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/eureka-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway-limiter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-feign-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-miya/src/main/java" charset="UTF-8" />

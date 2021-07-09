@@ -2,40 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9094397d-fe11-4bf2-8138-131a03be66f2" name="Default Changelist" comment="Spring Cloud Gateway组件的使用与测试">
-      <change afterPath="$PROJECT_DIR$/gateway-limiter/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-limiter/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-limiter/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-limiter/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-limiter/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-limiter/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-limiter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-limiter/src/main/java/com/baohj/gatewaylimiter/GatewayLimiterApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-limiter/src/main/java/com/baohj/gatewaylimiter/limiter/HostAddrKeyResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-limiter/src/main/java/com/baohj/gatewaylimiter/limiter/UriKeyResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-limiter/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-limiter/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-limiter/src/test/java/com/baohj/gatewaylimiter/GatewayLimiterApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-gateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-gateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-gateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-gateway/src/main/java/com/baohj/servicegateway/ServiceGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-gateway/src/main/java/com/baohj/servicegateway/factory/RequestTimeGatewayFilterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-gateway/src/main/java/com/baohj/servicegateway/filter/RequestTimeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-gateway/src/main/java/com/baohj/servicegateway/filter/TokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-gateway/src/main/resources/application.yml.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-gateway/src/test/java/com/baohj/servicegateway/ServiceGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign-client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign-client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign-client/src/main/java/com/baohj/servicefeignclient/ServiceFeignClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign-client/src/main/java/com/baohj/servicefeignclient/controller/FeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign-client/src/main/java/com/baohj/servicefeignclient/service/FeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign-client/src/main/java/com/baohj/servicefeignclient/service/impl/FeignServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign-client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-feign-client/src/test/java/com/baohj/servicefeignclient/ServiceFeignClientApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/com/baohj/eurekaclient/EurekaClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/baohj/eurekaclient/EurekaClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/src/main/java/com/baohj/servicefeign/ServiceFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/src/main/java/com/baohj/servicefeign/ServiceFeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +91,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/eureka-client/src/main/java/com/baohj" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-gateway/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-feign-client/src/main/java/com/baohj/servicefeignclient" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -119,17 +108,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.baohj.servicefeignclient.controller" />
       <recent name="com.baohj.gatewaylimiter.limiter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work-2021\Workspace-SpingCloud\SpringCloud-Finchley\service-feign-client\src\main\java\com\baohj\servicefeignclient" />
+      <recent name="D:\Work-2021\Workspace-SpingCloud\SpringCloud-Finchley\service-feign-client\src\main\resources" />
+      <recent name="D:\Work-2021\Workspace-SpingCloud\SpringCloud-Finchley" />
       <recent name="D:\Work-2021\Workspace-SpingCloud\SpringCloud-Finchley\service-gateway\src\main\resources" />
       <recent name="D:\Work-2021\Workspace-SpingCloud\SpringCloud-Finchley\gateway-limiter\src\main\resources" />
-      <recent name="D:\Work-2021\Workspace-SpingCloud\SpringCloud-Finchley\service-turbine\src\main\java\com\baohj\serviceturbine" />
-      <recent name="D:\Work-2021\Workspace-SpingCloud\SpringCloud-Finchley\service-turbine\src\main\resources" />
-      <recent name="D:\Work-2021\Workspace-SpingCloud\SpringCloud-Finchley\service-miya\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceFeignClientApplication">
     <configuration name="eureka-client [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -278,6 +268,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceFeignClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-feign-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baohj.servicefeignclient.ServiceFeignClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.baohj.servicegateway.ServiceGatewayApplication" />
@@ -329,6 +328,7 @@
       <item itemvalue="Spring Boot.ServiceTurbineApplication" />
       <item itemvalue="Spring Boot.ServiceGatewayApplication" />
       <item itemvalue="Spring Boot.GatewayLimiterApplication" />
+      <item itemvalue="Spring Boot.ServiceFeignClientApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -354,7 +354,8 @@
       <workItem from="1624849720840" duration="44787000" />
       <workItem from="1625119534066" duration="6675000" />
       <workItem from="1625208292195" duration="33283000" />
-      <workItem from="1625534128576" duration="6110000" />
+      <workItem from="1625534128576" duration="6532000" />
+      <workItem from="1625561563497" duration="8796000" />
     </task>
     <task id="LOCAL-00001" summary="update service-ribbon">
       <created>1625119808082</created>
@@ -412,10 +413,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1624605389434" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625208396046">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625565111314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1625208396046" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1625565111314" />
     <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625040000625">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -432,50 +433,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="478" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1624870015829" />
-    <state x="273" y="4" width="1203" height="815" key="CommitChangelistDialog2" timestamp="1625540385892">
+    <state x="273" y="4" width="1203" height="815" key="CommitChangelistDialog2" timestamp="1625540599824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="273" y="4" width="1203" height="815" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1625540385892" />
+    <state x="273" y="4" width="1203" height="815" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1625540599824" />
     <state x="254" y="64" key="DiffContextDialog" timestamp="1625215530412">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="254" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1625215530412" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1625121386879">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1625540692703">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1625121386879" />
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1625540300666">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1625540692703" />
+    <state width="1493" height="253" key="GridCell.Tab.0.bottom" timestamp="1625624143457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625540300666" />
-    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1625540300665">
+    <state width="1493" height="253" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625624143457" />
+    <state width="1493" height="253" key="GridCell.Tab.0.center" timestamp="1625624143457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625540300665" />
-    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1625540300665">
+    <state width="1493" height="253" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625624143457" />
+    <state width="1493" height="253" key="GridCell.Tab.0.left" timestamp="1625624143457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625540300665" />
-    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1625540300666">
+    <state width="1493" height="253" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625624143457" />
+    <state width="1493" height="253" key="GridCell.Tab.0.right" timestamp="1625624143457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625540300666" />
-    <state width="1493" height="205" key="GridCell.Tab.1.bottom" timestamp="1625540300666">
+    <state width="1493" height="253" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625624143457" />
+    <state width="1493" height="253" key="GridCell.Tab.1.bottom" timestamp="1625624143473">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625540300666" />
-    <state width="1493" height="205" key="GridCell.Tab.1.center" timestamp="1625540300666">
+    <state width="1493" height="253" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625624143473" />
+    <state width="1493" height="253" key="GridCell.Tab.1.center" timestamp="1625624143457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1625540300666" />
-    <state width="1493" height="205" key="GridCell.Tab.1.left" timestamp="1625540300666">
+    <state width="1493" height="253" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1625624143457" />
+    <state width="1493" height="253" key="GridCell.Tab.1.left" timestamp="1625624143457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1625540300666" />
-    <state width="1493" height="205" key="GridCell.Tab.1.right" timestamp="1625540300666">
+    <state width="1493" height="253" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1625624143457" />
+    <state width="1493" height="253" key="GridCell.Tab.1.right" timestamp="1625624143473">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1625540300666" />
+    <state width="1493" height="253" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1625624143473" />
     <state width="1493" height="135" key="GridCell.Tab.2.bottom" timestamp="1624861927665">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -508,6 +509,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="135" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1624861927666" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1625562313409">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1625562313409" />
     <state x="408" y="110" key="NewModule_or_Project.wizard" timestamp="1625121392825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -532,10 +537,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="517" y="277" key="git4idea.rebase.GitRebaseDialog/0.0.1536.824@0.0.1536.824" timestamp="1625106901655" />
-    <state x="229" y="130" key="new project wizard" timestamp="1625473495033">
+    <state x="229" y="130" key="new project wizard" timestamp="1625624132264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="229" y="130" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1625473495033" />
+    <state x="229" y="130" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1625624132264" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1625031247106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

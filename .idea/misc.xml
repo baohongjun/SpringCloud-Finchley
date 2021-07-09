@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/service-turbine/pom.xml" />
         <option value="$PROJECT_DIR$/service-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/gateway-limiter/pom.xml" />
+        <option value="$PROJECT_DIR$/service-feign-client/pom.xml" />
       </list>
     </option>
   </component>

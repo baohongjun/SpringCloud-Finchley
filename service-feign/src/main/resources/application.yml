@@ -6,7 +6,15 @@ server:
   port: 8765
 spring:
   application:
-    name: service-feign
+      name: service-feign
+  sleuth:
+    #设置web开启sleuth功能
+    web:
+      client:
+        enabled: true
+    #设置为1.0时就是链路数据100%收集到zipkin-server;设置为0.1时，即10%概率收集链路数据
+    sampler:
+      probability: 1.0 # 将采样比例设置为 1.0，也就是全部都需要。默认是 0.1
 
 feign:
   hystrix:

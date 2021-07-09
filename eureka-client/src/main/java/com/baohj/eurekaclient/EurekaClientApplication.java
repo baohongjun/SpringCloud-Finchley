@@ -19,6 +19,9 @@ import org.springframework.web.client.RestTemplate;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * @author DELL
+ */
 @SpringBootApplication
 @EnableEurekaClient         //表明自己是一个eurekaclient.
 @RestController
@@ -53,32 +56,32 @@ public class EurekaClientApplication {
      * 一个service-hi,对外暴露hi接口；一个service-miya,对外暴露miya接口；
      * 这两个service可以相互调用；并且只有调用了，server-zipkin才会收集数据的
      */
-    private static final Logger LOG = Logger.getLogger(EurekaClientApplication.class.getName());
-
-    @Autowired
-    private RestTemplate restTemplate;
-
-    @Bean
-    public RestTemplate getRestTemplate(){
-        return new RestTemplate();
-    }
-
-    @RequestMapping("/hi")
-    public String callHome(){
-        LOG.log(Level.INFO, "calling trace eureka-client  ");
-        return restTemplate.getForObject("http://localhost:8989/miya", String.class);
-    }
-    @RequestMapping("/info")
-    public String info(){
-        LOG.log(Level.INFO, "calling trace eureka-client ");
-
-        return "i'm eureka-client";
-
-    }
-
-   @Bean
-    public Sampler defaultSampler() {
-        return Sampler.ALWAYS_SAMPLE;
-    }
+//    private static final Logger LOG = Logger.getLogger(EurekaClientApplication.class.getName());
+//
+//    @Autowired
+//    private RestTemplate restTemplate;
+//
+//    @Bean
+//    public RestTemplate getRestTemplate(){
+//        return new RestTemplate();
+//    }
+//
+//    @RequestMapping("/hi")
+//    public String callHome(){
+//        LOG.log(Level.INFO, "calling trace eureka-client  ");
+//        return restTemplate.getForObject("http://localhost:8989/miya", String.class);
+//    }
+//    @RequestMapping("/info")
+//    public String info(){
+//        LOG.log(Level.INFO, "calling trace eureka-client ");
+//
+//        return "i'm eureka-client";
+//
+//    }
+//
+//   @Bean
+//    public Sampler defaultSampler() {
+//        return Sampler.ALWAYS_SAMPLE;
+//    }
 
 }
